@@ -1,0 +1,15 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+	int n;
+	cout << "Enter a number: ";
+	cin >> n;
+	if (n<0){
+		cout << "cube root does not exitst";
+	}
+	else{
+		cout << "Cube root of number is : " << cbrt(n);
+	}
+	return 0;
+}
